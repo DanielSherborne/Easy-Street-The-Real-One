@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://couh8r1dr18li"]
+
+[ext_resource type="Script" path="res://boost.gd" id="1_k0h12"]
+[ext_resource type="Texture2D" uid="uid://uamd3p1b0osc" path="res://icon.svg" id="1_rbtg5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e1l5j"]
+size = Vector2(63, 64)
+
+[node name="boost" type="Area2D"]
+collision_layer = 0
+script = ExtResource("1_k0h12")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_rbtg5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_e1l5j")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

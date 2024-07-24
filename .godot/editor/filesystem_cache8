@@ -1,0 +1,19 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1721786575
+boost.gd::GDScript::-1::1721596716::0::1::::<>Area2D<>::
+boost.tscn::PackedScene::5797257616770029506::1721691315::0::1::::<><>::res://boost.gd<>uid://uamd3p1b0osc::::res://icon.svg
+Daryl.gd::GDScript::-1::1721596716::0::1::::<>CharacterBody2D<>::
+daryl.tscn::PackedScene::6475544677646900163::1721597185::0::1::::<><>::res://Daryl.gd<>uid://uamd3p1b0osc::::res://icon.svg
+easy_street.tscn::PackedScene::8924747851099660517::1721689061::0::1::::<><>::res://Daryl.gd<>uid://c7aaofgmckw7i::::res://Sprites/Daryl(version1)png.png
+Global.gd::GDScript::-1::1721596716::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::1404512329065086966::1721596716::1721596766::1::::<><>::
+Level.gd::GDScript::-1::1721689048::0::1::::<>Node2D<>::
+level.tscn::PackedScene::903943087328078027::1721786549::0::1::::<><>::res://Level.gd<>uid://d0fhj76mrqw3f::::res://easy_street.tscn
+zombie.gd::GDScript::-1::1721596982::0::1::::<>Area2D<>::
+zombie.tscn::PackedScene::1482259929268263913::1721689061::0::1::::<><>::res://zombie.gd<>uid://dmwxrarltg63::::res://Sprites/Zombie .png
+::res://Sprites/::1721689313
+Daryl(version1)png (1).png animated.png::CompressedTexture2D::6530084389857666496::1721596716::1721596766::1::::<><>::
+Daryl(version1)png.png::CompressedTexture2D::7018909637351801488::1721596716::1721596766::1::::<><>::
+New Piskel-1.png.png::CompressedTexture2D::8096113617289630292::1721598661::1721689313::1::::<><>::
+New Piskel.png::CompressedTexture2D::5942434891490485457::1721596716::1721596766::1::::<><>::
+Zombie .png::CompressedTexture2D::236716804748298426::1721596716::1721596766::1::::<><>::
