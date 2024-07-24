@@ -50,7 +50,7 @@ shape = SubResource("RectangleShape2D_kn6eo")
 autostart = true
 
 [node name="Daryl" parent="." instance=ExtResource("2_0ljud")]
-position = Vector2(599, 260)
+position = Vector2(347, 58)
 
 [node name="ui" type="CanvasLayer" parent="."]
 

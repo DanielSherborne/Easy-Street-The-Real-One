@@ -1,22 +1,22 @@
 [gd_scene load_steps=4 format=3 uid="uid://d0fhj76mrqw3f"]
 
 [ext_resource type="Script" path="res://Daryl.gd" id="1_67hgw"]
-[ext_resource type="Texture2D" uid="uid://c7aaofgmckw7i" path="res://Sprites/Daryl(version1)png.png" id="2_rprfl"]
+[ext_resource type="Texture2D" uid="uid://37smuclk8xu2" path="res://Sprites/New Piskel (1).png" id="2_aaxsd"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_nb6ht"]
-size = Vector2(60, 61)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b8jit"]
+size = Vector2(99, 97)
 
 [node name="Daryl" type="CharacterBody2D"]
-position = Vector2(566, 283)
+position = Vector2(593, 184)
 collision_mask = 2
 script = ExtResource("1_67hgw")
-metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-0.999997, -0.499989)
-scale = Vector2(1.875, 1.90625)
-texture = ExtResource("2_rprfl")
+position = Vector2(-168.5, 252.75)
+scale = Vector2(0.309375, 0.323437)
+texture = ExtResource("2_aaxsd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -0.5)
-shape = SubResource("RectangleShape2D_nb6ht")
+position = Vector2(-168.5, 249.5)
+shape = SubResource("RectangleShape2D_b8jit")
+metadata/_edit_group_ = true
